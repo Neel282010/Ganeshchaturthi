@@ -12,7 +12,7 @@ body{
 #big{
   font-size:10px;
    position: relative;
-   left: 122px;
+   left: 120px;
    top:20px;
 }
 .animation{
@@ -35,7 +35,7 @@ body{
   100%{
    top:-20px;
    font-size: 20px;
-   left :80px;
+   left :50px;
    color: violet;
   }
 }
@@ -51,4 +51,4 @@ body{
 }
 .h3{
   font-size: 25px;
-    }
+  }
