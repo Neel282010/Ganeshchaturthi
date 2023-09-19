@@ -1,0 +1,54 @@
+body{
+  
+  background-color: skyblue;
+} 
+.h1{
+ color: white;
+ font-size:25px;
+}
+.img{
+  width: 350px;
+}
+#big{
+  font-size:10px;
+   position: relative;
+   left: 122px;
+   top:20px;
+}
+.animation{
+  animation: large 5s ;
+}
+@keyframes large {
+  20%{
+    top:20px;
+    color:green;
+}
+40%{
+  color:blue;
+}60%{
+  color:yellow;
+}80%{
+  color:orange;
+}90%{
+  color:red;
+}
+  100%{
+   top:-20px;
+   font-size: 20px;
+   left :80px;
+   color: violet;
+  }
+}
+.btn{
+  position:relative;
+  top:px;
+  left:120px;
+  height:100px;
+  width:100px;
+  background-color: red;
+  font-size:20px;
+  color: white;
+}
+.h3{
+  font-size: 25px;
+    }
